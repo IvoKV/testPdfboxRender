@@ -9,8 +9,8 @@ import java.io.IOException;
 
 public class MainClass {
     public static void main(String[] args) throws IOException {
-        CreatePdf createPdf = new CreatePdf();
-        createPdf.CreatePdf();
+//        CreatePdf createPdf = new CreatePdf();
+//        createPdf.CreatePdf();
 
         String loadFilename = "";
         String outPutFilename = "";
