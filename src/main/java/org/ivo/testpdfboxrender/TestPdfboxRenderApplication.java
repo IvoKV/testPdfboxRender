@@ -11,13 +11,14 @@ public class TestPdfboxRenderApplication {
 
         if(args.length > 0) {
             pdfFileName = args[0];
+            DataImport pdfrender = new DataImport();
+            pdfrender.importTestPDF();
         }
         else {
             pdfFileName = null;
         }
 
-        DataImport pdfrender = new DataImport();
-        pdfrender.importTestPDF();
+
 
 
 
